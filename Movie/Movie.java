@@ -10,7 +10,7 @@ public class Movie {
 
     System.out.println("Movie: " + movieTitle);
     System.out.println("Have I seen it? " + hasSeen);
-    System.out.println("Year: " + releaseYear);
+    System.out.println("Year: " + releaseYear );
     System.out.println("IMDB Note: " + imdbRating);
 
   }
