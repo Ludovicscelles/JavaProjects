@@ -1,7 +1,5 @@
 package Object;
 
-import java.util.Arrays;
-
 public class Object {
 
   public static void main(String[] args) {

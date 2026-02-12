@@ -1,7 +1,5 @@
 package Smoothie;
 
-import java.util.Arrays;
-
 public class Smoothie {
   private final Liquid liquid;
   private final Fruit[] fruits;
