@@ -1,6 +1,8 @@
 package Meal;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class Meal {
 
@@ -51,12 +53,40 @@ public class Meal {
     System.out.println(
         "Voici le dessert de votre repas : " + dessert.getName() + " (" + dessert.getCalories() + " calories).");
 
-    lunch.clear();
+    // lunch.clear();
 
+    // System.out.println("Voici les aliments de votre repas :");
+    // for (Food food : lunch) {
+    // System.out.println("- " + food.getName() + " : " + food.getCalories() + "
+    // calories");
+    // }
+
+    Collections.sort(lunch);
+
+    System.out.println("");
     System.out.println("Voici les aliments de votre repas :");
     for (Food food : lunch) {
       System.out.println("- " + food.getName() + " : " + food.getCalories() + " calories");
     }
+    ;
+
+    Comparator<Food> comparator = new Comparator<Food>() {
+
+    @Override
+    public int compare(Food food1, Food food2) {
+      return food1.getName().compareTo(food2.getName());
+    }
+  };
+
+    Collections.sort(lunch, comparator);
+
+    System.out.println("");
+    System.out.println("Voici les aliments de votre repas :");
+    for (Food food : lunch) {
+      System.out.println("- " + food.getName() + " : " + food.getCalories() + " calories");
+    }
+    
+
   }
 
 }

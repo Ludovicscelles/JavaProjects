@@ -1,6 +1,8 @@
 package Meal;
 
-public class Food {
+import java.util.Comparator;
+
+public class Food implements Comparable<Food> {
 
   private String name;
   private int calories;
@@ -25,5 +27,13 @@ public class Food {
   public void setCalories(int calories) {
     this.calories = calories;
   }
+
+  @Override
+  // comparing the calories of two food items, in descending order
+  public int compareTo(Food food) {
+    return food.getCalories() - this.getCalories();
+  }
+
+  
 
 }
