@@ -1,12 +1,11 @@
-package Meal;
+package Dessert;
 
-
-public class Food implements Comparable<Food> {
+public class IceCream implements Comparable<IceCream> {
 
   private String name;
   private int calories;
 
-  public Food(String name, int calories) {
+  public IceCream(String name, int calories) {
     this.name = name;
     this.calories = calories;
   }
@@ -20,7 +19,7 @@ public class Food implements Comparable<Food> {
   }
 
   public int getCalories() {
-    return this.calories;
+    return calories;
   }
 
   public void setCalories(int calories) {
@@ -28,11 +27,7 @@ public class Food implements Comparable<Food> {
   }
 
   @Override
-  // comparing the calories of two food items, in descending order
-  public int compareTo(Food food) {
-    return food.getCalories() - this.getCalories();
+  public int compareTo(IceCream iceCream) {
+    return this.getName().compareTo(iceCream.getName());
   }
-
-  
-
 }
