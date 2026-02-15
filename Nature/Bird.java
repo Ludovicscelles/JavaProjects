@@ -1,4 +1,4 @@
-package Nature;
+package nature;
 
 public abstract class Bird {
 

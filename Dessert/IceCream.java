@@ -1,4 +1,4 @@
-package Dessert;
+package dessert;
 
 public class IceCream implements Comparable<IceCream> {
 

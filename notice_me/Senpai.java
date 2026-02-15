@@ -1,4 +1,4 @@
-package NoticeMe;
+package notice_me;
 
 public class Senpai {
 

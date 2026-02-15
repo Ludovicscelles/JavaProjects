@@ -1,4 +1,4 @@
-package Decipherer;
+package decipherer;
 
 public class Decipherer {
 

@@ -1,4 +1,4 @@
-package Dessert;
+package dessert;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

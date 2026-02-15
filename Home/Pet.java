@@ -1,4 +1,4 @@
-package Home;
+package home;
 
 public interface Pet {
 
@@ -8,7 +8,7 @@ public interface Pet {
 
   boolean pet();
 
-  default void trick(){
+  default void trick() {
     System.out.println("Does a trick");
   }
 }

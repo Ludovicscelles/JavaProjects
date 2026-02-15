@@ -1,4 +1,4 @@
-package JavaIntro;
+package java_intro;
 
 class HelloWorld {
 

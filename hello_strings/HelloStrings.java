@@ -1,4 +1,4 @@
-package HelloStrings;
+package hello_strings;
 
 public class HelloStrings {
 

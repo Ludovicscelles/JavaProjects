@@ -1,4 +1,4 @@
-package Meal;
+package meal;
 
 
 public class Food implements Comparable<Food> {

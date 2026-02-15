@@ -1,4 +1,4 @@
-package Chifoumi;
+package chifoumi;
 
 public class Chifoumi {
 

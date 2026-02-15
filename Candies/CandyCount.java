@@ -1,4 +1,4 @@
-package Candies;
+package candies;
 
 public class CandyCount {
 

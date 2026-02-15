@@ -1,4 +1,4 @@
-package Indy;
+package indy;
 
 import java.util.Arrays;
 

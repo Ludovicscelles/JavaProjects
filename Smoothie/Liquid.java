@@ -1,4 +1,5 @@
-package Smoothie;
+package smoothie;
+
 
 public class Liquid {
 

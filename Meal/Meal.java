@@ -1,4 +1,4 @@
-package Meal;
+package meal;
 
 import java.util.ArrayList;
 import java.util.Collections;

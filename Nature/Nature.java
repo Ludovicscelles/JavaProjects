@@ -1,4 +1,4 @@
-package Nature;
+package nature;
 
 import java.util.ArrayList;
 

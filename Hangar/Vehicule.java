@@ -1,4 +1,4 @@
-package Hangar;
+package hangar;
 
 public abstract class Vehicule {
 
