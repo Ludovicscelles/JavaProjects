@@ -105,7 +105,7 @@ public class UseMap {
 
     for (User user : treeClassroom.keySet()) {
       Computer computer = treeClassroom.get(user);
-      System.out.println(user.getName() + ":" + computer.getModel());
+      System.out.println(user.getName() + ": " + computer.getModel());
     }
     System.out.println();
 

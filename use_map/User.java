@@ -1,7 +1,5 @@
 package use_map;
 
-import java.util.Comparator;
-
 public class User {
 
   private String name;
