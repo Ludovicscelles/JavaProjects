@@ -1,0 +1,20 @@
+# Fichier compilé
+*.class
+
+# Maven
+target/
+
+# Fichier de log
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
